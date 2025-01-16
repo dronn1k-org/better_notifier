@@ -92,7 +92,6 @@ void main() {
         () {
       bool isMergedValueChanged = false;
       void listener() {
-        print('faskdfn;akndf');
         isMergedValueChanged = true;
       }
 
@@ -129,10 +128,10 @@ void main() {
     });
 
     test(
-        'Hard Merged value is changed even when a previous value is the same as next',
+        'Hard Merged value is triggered even when a previous value is the same as next',
         () {
-      bool isMergedValueChanged = false;
-      void listener() => isMergedValueChanged = true;
+      bool isMergedValueTriggered = false;
+      void listener() => isMergedValueTriggered = true;
 
       final whenBothTrue = VN.merged(
         false,
@@ -147,7 +146,7 @@ void main() {
       leftBool.value = true;
 
       expect(whenBothTrue.value, false);
-      expect(isMergedValueChanged, true);
+      expect(isMergedValueTriggered, true);
     });
 
     test(

@@ -1,6 +1,6 @@
 import 'package:better_notifier/core/better_notifier.dart';
 
-/// Extension to provide additional methods for `Rv<Iterable<T>>`.
+/// Extension to provide additional methods for `VN<Iterable<T>>`.
 extension BetterIterableNotifications<T> on VN<Iterable<T>> {
   /// Gets the element at the specified [index] in the iterable.
   T operator [](int index) {
