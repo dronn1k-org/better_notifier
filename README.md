@@ -1,6 +1,6 @@
 # `better_notifier`
 
-`better_notifier` is a Dart package that simplifies state management by enhancing the capabilities of `ValueNotifier`. This package introduces powerful abstractions and extensions for managing `ValueNotifier` instances, making them more flexible, efficient, and developer-friendly. It is particularly suited for applications requiring advanced state management and reactive programming.
+`Better Notifier` is a Dart package that simplifies state management by enhancing the capabilities of `ValueNotifier`. This package introduces powerful abstractions and extensions for managing `ValueNotifier` instances, making them more flexible, efficient, and developer-friendly. It is particularly suited for applications requiring advanced state management and reactive programming.
 
 ---
 
@@ -22,7 +22,7 @@ Add `better_notifier` to your project's `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  better_notifier: ^1.0.0
+  better_notifier: ^0.0.1
 ```
 
 Then, install it using the `flutter pub get` command.
